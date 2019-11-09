@@ -51,5 +51,5 @@ docker run --rm -it -p 2222:22 -e "AUTHORIZED_KEY=$(cat ~/.ssh/id_ecdsa_sk.pub)"
 Then SSH:
 
 ```console
-/usr/local/opt/openssh-u2f/bin/ssh -p 2222 user@locahost
+/usr/local/opt/openssh-u2f/bin/ssh -p 2222 user@localhost
 ```
