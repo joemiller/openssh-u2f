@@ -9,4 +9,5 @@ cat <<EOF >/home/user/.ssh/authorized_keys
 $AUTHORIZED_KEY
 EOF
 
-exec /usr/local/openssh-u2f/sbin/sshd -D -e
+# exec /usr/local/openssh-u2f/sbin/sshd -D -e
+exec /usr/sbin/sshd -D -e
